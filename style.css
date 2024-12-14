@@ -1,8 +1,12 @@
-body{
+*{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    
     background-color: black;/* Basic linear gradient */
     background-image: linear-gradient(to right, black, rgb(70, 70, 70));
-    
+    margin: 15px;
+    padding: 15px;
 }
 
 body h1 {
@@ -10,20 +14,21 @@ body h1 {
     text-align: center;
     justify-content: left;
     display: flex;
-
-    font-size: 40px;
-    margin: 15px;
     padding: 15px;
+    font-size: 40px;
+
     border-radius: 15px;
 }
 
 .years{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 20px;
 }
 .year{
     background-color: beige;
     padding: 20px;
     text-align: center;
+    
+    border-radius: 15px;
 }
